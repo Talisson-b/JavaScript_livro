@@ -1,0 +1,18 @@
+<!-- Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x.
+EXEMPLO: 
+PREÇO: R$:60.00
+À vista: R$:54.00
+Ou 3x de R$:20.00 -->
+
+<meta charset="UTF-8">
+
+<script>
+    const valorProduto = Number(prompt('Valor do produto:'))
+    const valorDesconto = valorProduto - (valorProduto * 0.1)
+    const valorParcelado = valorProduto / 3
+
+    alert(`Preço: R$${valorProduto} \n
+    À vista: R$${valorDesconto.toFixed(2)} \n
+    Ou 3x de R$${valorParcelado.toFixed(2)}
+    `)
+</script>

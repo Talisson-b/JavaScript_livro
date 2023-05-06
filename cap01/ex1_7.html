@@ -1,0 +1,15 @@
+<meta charset='UTF-8'>
+
+<script>
+    const ValorDoJantar = Number(prompt('Valor da janta:'))
+    const taxaDoGarcom = ValorDoJantar *  0.10
+    console.log(taxaDoGarcom)
+    const totalAoPagar = taxaDoGarcom + ValorDoJantar 
+
+
+    alert(`O valor da janta foi: ${ValorDoJantar} \n
+    Taxa do garçom: ${taxaDoGarcom.toFixed(2)} \n
+    Total a pagar: ${totalAoPagar.toFixed(2)}`)
+</script>
+
+<!-- método toFixed(numero de casas decimais) esse método serve para indicar que o valor a ser apresentado terá apenas as casas decimais passada nos parenteses  -->
