@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lista.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de compras</h1>
+        <form>
+            <input type="text" id="inProduto" required autofocus class="inTexto">
+            <input type="submit" value="adicionar" class="btn">
+            <input type="button" id="btRemover" value="remover" class="btn">
+        </form>
+       <div class="listaDeItens">
+            <div  class="itensNovos" >
+                <h2>
+                    Itens adicionados:
+                   
+                </h2>
+                <p id="itensNovos"></p>
+            </div>
+            <div class="itensRemovidos">
+                <h2 >
+                    Itens removidos:
+                </h2>
+                <p  id="itensRemovidos"></p>
+            </div>
+       </div>
+    </div>
+    <script src="js/listaTarefas.js"></script>
+</body>
+</html>

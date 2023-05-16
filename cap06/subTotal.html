@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/subTotal.css">
+    <title>subtotalCompra</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Nota fiscal</h1>
+    <form>
+        Produto:
+        <input type="text" id="inProduto" required autofocus>
+        Preço:
+        <input type="text" id="inPreco" required>
+        Quantidade:
+        <input type="text" id="inQuantidade" required>
+        <br><br>
+        <input type="submit" value="Adicionar">
+    </form>
+    <div class="container-nf">
+        <h3></h3>
+    <pre></pre>
+    <pre id="pre"></pre>
+    <pre id="taxa"></pre>
+    </div>
+    </div>
+    <script src="js/subTotal.js"></script>
+</body>
+</html>

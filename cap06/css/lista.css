@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    min-height: 80vh;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #cccccc;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+    margin-top: 32px;
+}
+
+.btn {
+    padding: 8px;
+    margin: 8px;
+}
+
+.inTexto {
+    width: 300px;
+}
+
+
+.listaDeItens {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+    gap: 15px;
+}
+
+.itensNovos {
+    background-color: blue;
+    padding: 16px;
+}
+
+.itensRemovidos {
+    background-color: aqua;
+    padding: 16px;
+
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.itensRemovidos > p {
+    text-decoration: line-through;
+    
+}
